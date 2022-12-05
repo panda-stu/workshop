@@ -7,7 +7,8 @@
   <title>胖達工作室</title>
 
   <?php include('assets/includes/head/og.php') ?>
-  <?php include('assets/includes/head/header.php') ?>
+  
+  <?php include('assets/includes/head/logo.php') ?>
 
   <?php include('assets/includes/head/fonts.php') ?>
 
