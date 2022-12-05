@@ -7,7 +7,7 @@
   <title>胖達工作室</title>
 
   <?php include('assets/includes/head/og.php') ?>
-  
+
   <?php include('assets/includes/head/logo.php') ?>
 
   <?php include('assets/includes/head/fonts.php') ?>
@@ -389,6 +389,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/console/main.js"></script>
+  <script src="assets/vendor/mdb/js/mdb.min.js"></script>
   <script src="assets/js/konami.js"></script>
   
   <!-- 主題主要的 JS 檔案 -->
