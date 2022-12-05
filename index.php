@@ -2,97 +2,22 @@
 <html lang="zh-Hant-TW">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta name="description" content="CloudXact 工作室是由臺灣學生組成，其中我們跨足了 臺灣、香港、美國等區域並以學生為中心、並且有少數成年人協助。歡迎各位將熱血與青春投注於此，創建屬於自己的夢想藍圖！">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <?php include('assets/includes/head/header.php') ?>
 
   <title>胖達工作室</title>
-  <!-- og -->
-  <meta property="og:title" content="CloudXact Studio | 官方網站">
-  <meta property="og:description" content="CloudXact 工作室是由臺灣學生組成，其中我們跨足了 臺灣、香港、美國等區域並以學生為中心、並且有少數成年人協助。歡迎各位將熱血與青春投注於此，創建屬於自己的夢想藍圖！">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image" content="https://www.cloudxact.com/assets/img/logo/Halloween-logo.png">
-  <meta name="keywords" content="RPG,Cloud,CloudXact,Studio,Game,Game Developer,Dev,Developer,工作室,遊戲開發者,開發商,發佈商,遊戲製造者,學生,恐怖,解迷,解密,程式,交談,交友,遊戲開發商,遊戲"/>
 
-  <!-- 網站Logo -->
-  <link href="assets/img/adc5dcb73eadcb7f4ea04a814d6aafb8.png" rel="icon">
-  <link href="assets/img/adc5dcb73eadcb7f4ea04a814d6aafb8.png" rel="apple-touch-icon">
+  <?php include('assets/includes/head/og.php') ?>
+  <?php include('assets/includes/head/header.php') ?>
 
-  <!-- Google 字體 -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <?php include('assets/includes/head/fonts.php') ?>
 
-  <!-- CSS 檔案 -->
-  <link href="assets/css/button.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-  <!-- 主 CSS 檔案 -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
+  <?php include('assets/includes/head/css.php') ?>
 </head>
 
 <body>
-  <!--
-  <div class="notification-top-bar">
-    <p>Oracular IS Completes Acquisition of Logixify Inc. See the <small><a href="https://www.oracular.com/index.php?option=com_content&view=article&id=79">Press Release</a></small></p>
-  </div>
-  -->
-  <!-- ======= 聯絡資訊和社群連結 ======= -->
-  <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="https://go.pandastudio.ga/line" target="_blank">透過Line連絡我們!</a></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="https://go.pandastudio.ga/discord" class="twitter" target="_blank"><i class="bi bi-discord"></i></a>
-        <!--
-          <a href="https://go.pandastudio.ga/discord" class="twitter"><i class="bi bi-facebook"></i></a>
-          <a href="https://go.pandastudio.ga/discord" class="twitter"><i class="bi bi-youtube"></i></a>
-          <a href="https://go.pandastudio.ga/discord" class="twitter"><i class="bi bi-github"></i></a>
-        -->
-        <a href="https://go.pandastudio.ga/line" class="twitter" target="_blank"><i class="bi bi-line"></i></a>
-      </div>
-    </div>
-  </section>
+  <?php include('assets/includes/body/topbar.php') ?>
 
-  <!-- ======= 標題 ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="https://cloudxact.com">胖達 <span>X</span> 工作室</a></h1>
-      <!-- <a href="index.html" class="logo"><img src="assets/img/CloudXact.png" alt=""></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
-          <li><a class="nav-link scrollto" href="#about">關於我們</a></li>
-          <li><a class="nav-link scrollto" href="#enviornment">環境</a></li>
-          <li><a class="nav-link scrollto" href="#evaluation">評價</a></li>
-          <li><a class="nav-link scrollto" href="#team">管理團隊</a></li>
-          <!--
-          <li class="dropdown"><a href="#"><span>團隊</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="https://www.cloudxact.com#team">管理團隊</a></li>
-              <li><a href="https://www.cloudxact.com/team">全體團員</a></li>
-            </ul>
-          </li>
-          -->
-          <li><a class="nav-link scrollto" href="#faq">常見問題</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
-
-    </div>
-  </header>
-  <!-- 結束標題 -->
+  <?php include('assets/includes/body/header.php') ?>
 
   <!-- ======= 英雄! ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -257,7 +182,7 @@
 
 
     <!-- ======= 我們提供的服務 ======= -->
-    <section id="services" class="services">
+    <section id="enviornment" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
