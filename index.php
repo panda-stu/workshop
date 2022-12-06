@@ -20,18 +20,7 @@
 
   <?php include('assets/includes/body/header.php') ?>
 
-  <!-- ======= 英雄! ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>歡迎來到 胖達 <span><a href="https://takeb1nzyto.space/" target="_blank">X</a></span> 工作室</h1>
-      <h2>我們是一群有著<span>共同目標</span>踴躍發展的工作室!</h2>
-      <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">往下閱讀</a>
-        <!-- <a href="#" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>形象影片</span></a> -->
-      </div>
-    </div>
-  </section>
-  <!-- 英雄...結束了... -->
+  <?php include('assets/includes/body/hero.php') ?>
 
   <main id="main">
 
@@ -302,104 +291,13 @@
 
   </main><!-- 結束 #main -->
 
-  <!-- ======= 頁腳 ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>CloudXact <span>Ltd.</span></h3>
-            <!-- Cloud<span>X</span>act -->
-            <p>
-              由臺灣學生組成，其中我們跨足了 臺灣、香港、美國等區域並以學生為中心的工作室。<br><br>
-              <strong>Email:</strong> <a href="mailto:support@cloudxact.com">support@cloudxact.com</a><br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>我們的作品</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="products">作品創作</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>相關政策</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="rules">組織規程</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="history">團隊沿革</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="terms">服務條款</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="privacy">隱私權保護政策</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>其他資源</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://status.cloudxact.com/">服務狀態</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://store.cloudxact.com/">線上商城</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://support.cloudxact.com/">支持中心</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://event.cloudxact.com/">事件處理中心</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>我們的社交平台</h4>
-            <p>想了解更多或追蹤我們的羧新資訊嗎?那就加入或追蹤我們不同的社交平台吧!</p>
-            <div class="social-links mt-3">
-              <a href="https://go.cloudxact.com/discord" class="twitter"><i class="bi bi-discord"></i></a>
-              <a href="https://go.cloudxact.com/twitter" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://go.cloudxact.com/facebook" class="twitter"><i class="bi bi-facebook"></i></a>
-              <a href="https://go.cloudxact.com/youtube" class="twitter"><i class="bi bi-youtube"></i></a>
-              <a href="https://go.cloudxact.com/github" class="twitter"><i class="bi bi-github"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container py-4">
-      <div class="copyright">
-        <p class="center">
-        Copyright &copy; 2021-<script>document.write( new Date().getFullYear())</script> <strong><span>CloudXact Ltd.</span></strong> All Rights Reserved.
-        </p>
-      </div>
-      <div class="credits">
-        Designed by <a href="https://go.cloudxact.com/discord">CloudXact Ltd.</a>
-      </div>
-    </div>
-  </footer>
-  <!-- 結束頁腳 -->
+  <?php include('assets/includes/footer/index.php') ?>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- JS檔案 -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/console/main.js"></script>
-  <script src="assets/vendor/mdb/js/mdb.min.js"></script>
-  <script src="assets/js/konami.js"></script>
-  
-  <!-- 主題主要的 JS 檔案 -->
-  <script src="assets/js/main.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
-    });
-  </script>
-  
+  <?php include('assets/includes/footer/js.php') ?>
 </body>
 
 </html>
