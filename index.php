@@ -74,7 +74,7 @@
         <div class="section-title">
           <h2>關於我們</h2>
           <h3>關於我們</h3>
-          <p>胖達工作室是由 <a>將軍</a> 一人所創立，主要嚮往教學，小朋友程式及創作！不同的有趣線上課程，讓大家有著很好的感覺。也因疫情期間，無法實體</p>
+          <p>胖達工作室是由 將軍 一人所創立，主要嚮往教學，小朋友程式及創作！不同的有趣的課程，讓大家可以邊看影片邊學習新知識！</p>
         </div>
 
         <div class="row">
@@ -232,6 +232,21 @@
               <div class="member-info">
                 <h4>陳將軍</h4>
                 <span>創辦人</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="https://cdn.discordapp.com/avatars/1017367319690887190/811001770e8eb9656214c55883adb103.png?size=512" class="img-fluid" alt="">
+                <div class="social">
+                  <!--<a href="mailto:dc@pandastudio.ga"><i class="bi bi-envelope"></i></a>-->
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>PDTW</h4>
+                <span>成員</span>
               </div>
             </div>
           </div>

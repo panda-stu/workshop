@@ -283,3 +283,5 @@
   new PureCounter();
 
 })()
+
+window.$crisp=[];window.CRISP_WEBSITE_ID="027d6506-e1b4-42dc-b722-7c1d6b65aee4";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
